@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820628561CA8A50A006C6FA0 /* ControlCiudades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820628551CA8A50A006C6FA0 /* ControlCiudades.swift */; };
 		8286D0CE1CA78AE700A7DE56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8286D0CD1CA78AE700A7DE56 /* AppDelegate.swift */; };
-		8286D0D01CA78AE700A7DE56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8286D0CF1CA78AE700A7DE56 /* ViewController.swift */; };
 		8286D0D31CA78AE700A7DE56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8286D0D11CA78AE700A7DE56 /* Main.storyboard */; };
 		8286D0D51CA78AE700A7DE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8286D0D41CA78AE700A7DE56 /* Assets.xcassets */; };
 		8286D0D81CA78AE700A7DE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8286D0D61CA78AE700A7DE56 /* LaunchScreen.storyboard */; };
 		8286D0E31CA78AE700A7DE56 /* ClimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8286D0E21CA78AE700A7DE56 /* ClimaTests.swift */; };
 		8286D0EE1CA78AE700A7DE56 /* ClimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8286D0ED1CA78AE700A7DE56 /* ClimaUITests.swift */; };
+		8286D0FC1CA78E4E00A7DE56 /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8286D0FB1CA78E4E00A7DE56 /* TVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820628551CA8A50A006C6FA0 /* ControlCiudades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCiudades.swift; sourceTree = "<group>"; };
 		8286D0CA1CA78AE700A7DE56 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8286D0CD1CA78AE700A7DE56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8286D0CF1CA78AE700A7DE56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8286D0D21CA78AE700A7DE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8286D0D41CA78AE700A7DE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8286D0D71CA78AE700A7DE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		8286D0E91CA78AE700A7DE56 /* ClimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8286D0ED1CA78AE700A7DE56 /* ClimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaUITests.swift; sourceTree = "<group>"; };
 		8286D0EF1CA78AE700A7DE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8286D0FB1CA78E4E00A7DE56 /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				8286D0CD1CA78AE700A7DE56 /* AppDelegate.swift */,
-				8286D0CF1CA78AE700A7DE56 /* ViewController.swift */,
 				8286D0D11CA78AE700A7DE56 /* Main.storyboard */,
 				8286D0D41CA78AE700A7DE56 /* Assets.xcassets */,
 				8286D0D61CA78AE700A7DE56 /* LaunchScreen.storyboard */,
 				8286D0D91CA78AE700A7DE56 /* Info.plist */,
+				8286D0FB1CA78E4E00A7DE56 /* TVC.swift */,
+				820628551CA8A50A006C6FA0 /* ControlCiudades.swift */,
 			);
 			path = Clima;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8286D0D01CA78AE700A7DE56 /* ViewController.swift in Sources */,
+				820628561CA8A50A006C6FA0 /* ControlCiudades.swift in Sources */,
 				8286D0CE1CA78AE700A7DE56 /* AppDelegate.swift in Sources */,
+				8286D0FC1CA78E4E00A7DE56 /* TVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				8286D0F41CA78AE700A7DE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8286D0F51CA78AE700A7DE56 /* Build configuration list for PBXNativeTarget "ClimaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				8286D0F71CA78AE700A7DE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8286D0F81CA78AE700A7DE56 /* Build configuration list for PBXNativeTarget "ClimaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				8286D0FA1CA78AE700A7DE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
